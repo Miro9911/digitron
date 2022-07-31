@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: auto;
+}
+
+.box {
+    border: 1px solid black;
+    height: 580px;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 200px;
+    background-color: palevioletred;
+}
+
+.input {
+    border: 1px solid black;
+    height: 100px;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.cal_keys {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cal_keys_item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: cornflowerblue;
+    margin: 2px;
+}
